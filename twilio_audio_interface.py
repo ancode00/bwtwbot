@@ -31,3 +31,7 @@ class TwilioAudioInterface:
     def stop(self, *args, **kwargs):
         pass
 
+    @property
+    def output(self):
+        return self
+
